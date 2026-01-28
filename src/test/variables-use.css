@@ -1,3 +1,4 @@
 .test-color {
-  color: var(--test-color);
+  color: var(--test-color-blue);
+  background-color: var(--test-color-primary);
 }

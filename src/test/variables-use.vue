@@ -10,22 +10,23 @@ export default {
 
 <style lang="scss">
 .test-color {
-  color: var(--test-color);
+  color: var(--test-color-blue);
+  background-color: var(--test-color-primary);
 }
 
-.gray {
-  color: $gray;
+.gray_0 {
+  color: $gray_0;
 }
 
-.gray1 {
+.gray_1 {
   color: $gray_1;
 }
 
-.gray2 {
+.gray_2 {
   color: $gray_2;
 }
 
-.gray3 {
+.gray_3 {
   color: $gray_3;
 }
 </style>

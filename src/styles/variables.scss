@@ -1,11 +1,11 @@
 // css 变量
 :root {
-  --test-color: #409eff;
+  --test-color-blue: #409eff;
+  --test-color-primary: var(--test-color-blue);
 }
 
 // scss 变量
-
-$gray: #aaaaaa;
+$gray_0: #aaaaaa;
 $gray_1: #808080;
 $gray_2: #4a4a4a;
 $gray_3: #333333;
