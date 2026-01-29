@@ -1,5 +1,5 @@
-{    
-    "color-highlight.enable": true,
-    "color-highlight.css.globalPaths": ["./src/styles/variables.scss"],
-    "color-highlight.sass.globalPaths": ["./src/styles/variables.scss"],
+{
+  "color-highlight.globalPaths": ["./src/styles/variables-define.scss"],
+  "color-highlight.markerType": "dot-before",
+  "editor.colorDecorators": false
 }

@@ -1,7 +1,11 @@
 // css 变量
 :root {
+  --test-color-red: #f56c6c;
+  --test-color-green: #67c23a;
   --test-color-blue: #409eff;
   --test-color-primary: var(--test-color-blue);
+  --test-color-success: var(--test-color-green);
+  --test-color-danger: var(--test-color-red);
 }
 
 // scss 变量
