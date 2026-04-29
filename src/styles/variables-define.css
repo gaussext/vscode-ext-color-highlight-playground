@@ -1,0 +1,20 @@
+:root {
+  --test-color-red: #f56c6c;
+  --test-color-green: #67c23a;
+  --test-color-blue: #409eff;
+  --test-color-yellow: #fdd835;
+  
+  --test-color-primary: var(--test-color-blue);
+  --test-color-success: var(--test-color-green);
+  --test-color-danger: var(--test-color-red);
+  --test-color-warning: var(--test-color-yellow);
+
+  --test-color-1: var(--test-color-primary);
+  --test-color-11: var(--test-color-1);
+  --test-color-111: var(--test-color-11);
+  --test-color-1111: var(--test-color-111);
+  --test-color-11111: var(--test-color-1111);
+  --test-color-111111: var(--test-color-11111);
+  --test-color-1111111: var(--test-color-111111);
+  --test-color-11111111: var(--test-color-1111111);
+}

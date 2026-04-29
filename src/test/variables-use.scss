@@ -1,32 +1,6 @@
 .test {
-  --test-color-yellow: #fdd835;
-  --test-color-warning: var(--test-color-yellow);
-}
-
-.test {
-  color: var(--test-color-red);
-  color: var(--test-color-green);
-  color: var(--test-color-blue);
-  color: var(--test-color-yellow);
-
-  color: var(--test-color-primary);
-  color: var(--test-color-success);
-  color: var(--test-color-danger);
-  color: var(--test-color-warning);
-}
-
-.gray_0 {
-  color: $gray_0;
-}
-
-.gray_1 {
-  color: $gray_1;
-}
-
-.gray_2 {
-  color: $gray_2;
-}
-
-.gray_3 {
-  color: $gray_3;
+  color: $color_red;
+  color: $color_green;
+  color: $color_blue;
+  color: $color_yellow;
 }

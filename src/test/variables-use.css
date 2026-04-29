@@ -1,9 +1,4 @@
 .test {
-  --test-color-yellow: #fdd835;
-  --test-color-warning: var(--test-color-yellow);
-}
-
-.test {
   color: var(--test-color-red);
   color: var(--test-color-green);
   color: var(--test-color-blue);

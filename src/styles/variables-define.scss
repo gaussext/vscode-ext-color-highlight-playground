@@ -1,15 +1,12 @@
-// css 变量
-:root {
-  --test-color-red: #f56c6c;
-  --test-color-green: #67c23a;
-  --test-color-blue: #409eff;
-  --test-color-primary: var(--test-color-blue);
-  --test-color-success: var(--test-color-green);
-  --test-color-danger: var(--test-color-red);
-}
+$color_red: #f56c6c;
+$color_green: #67c23a;
+$color_blue: #409eff;
+$color_yellow: #fdd835;
 
-// scss 变量
-$gray_0: #aaaaaa;
-$gray_1: #808080;
-$gray_2: #4a4a4a;
-$gray_3: #333333;
+$color_danger: $color_red;
+$color_success: $color_green;
+$color_primary: $color_blue;
+$color_warning: $color_yellow;
+
+$color_text: #606266;
+$color_text_light: #9099a4;
