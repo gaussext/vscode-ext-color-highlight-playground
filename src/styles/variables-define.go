@@ -1,18 +1,20 @@
-package main
+package theme
 
 import (
 	"fmt"
+
 	"github.com/charmbracelet/lipgloss"
 )
 
 // 对应 CSS 变量（直接使用十六进制值）
 const (
-	TestColorRed    = "#f56c6c"
-	TestColorGreen  = "#67c23a"
-	TestColorBlue   = "#409eff"
-	TestColorPrimary   = TestColorBlue  // 相当于 var(--test-color-blue)
-	TestColorSuccess   = TestColorGreen // 相当于 var(--test-color-green)
-	TestColorDanger    = TestColorRed   // 相当于 var(--test-color-red)
+	TestColorRed          = "#f56c6c"
+	TestColorGreen        = "#67c23a"
+	TestColorBlue         = "#409eff"
+	TestColorPrimary      = TestColorBlue  // 相当于 var(--test-color-blue)
+	TestColorSuccess      = TestColorGreen // 相当于 var(--test-color-green)
+	TestColorDanger       = TestColorRed   // 相当于 var(--test-color-red)
+	TestColorDangerActive = "#d9534f"      // 直接使用十六进制值，表示危险颜色的激活状态，左侧部分不应该有高亮颜色
 )
 
 // 对应 SCSS 变量
